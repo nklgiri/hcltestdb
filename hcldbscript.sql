@@ -50,6 +50,9 @@ CREATE TABLE Audit (
 	AuditDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (AuditID)
 );
+
+ALTER TABLE Audit
+ADD CustomerID varchar(255);
 /
 
 
