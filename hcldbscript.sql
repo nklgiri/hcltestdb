@@ -53,6 +53,15 @@ CREATE TABLE Audit (
 
 ALTER TABLE Audit
 ADD CustomerID varchar(255);
+
+INSERT INTO Instruments (InstrumentID, InstrumentName, InstrumentValue, InstrumentType)
+VALUES (1, 'Apple', '1000.00', 'Digital	Asset');
+
+INSERT INTO Instruments (InstrumentID, InstrumentName, InstrumentValue, InstrumentType)
+VALUES (2, 'SBI', '1000.00', 'Bond');
+
+INSERT INTO Instruments (InstrumentID, InstrumentName, InstrumentValue, InstrumentType)
+VALUES (3, 'Prestiage', '1000.00', 'Real	Estate');
 /
 
 
